@@ -21,3 +21,14 @@ Nmap, however, may detect six possible port states:
 ## **Task 3 Module - TCP Flags** 🏁
 
 ![TCPFlags_Nmap_Task3](https://github.com/user-attachments/assets/70447113-a800-433b-bc23-761917795d20)
+
+The TCP header is 24 bytes long, consisting of six rows of data. Key fields within include source and destination port numbers (16 bits each) and sequence and acknowledgement numbers (32 bits each).
+
+Nmap can manipulate the TCP flags in the header, which are important for scanning. Flags area:
+
+- **URG (Urgent)**: Marks urgent data that needs immediate processing.
+- **ACK (Acknowledgement)**: Acknowledges the receipt of a TCP segment.
+- **PSH (Push)**: Requests that TCP deliver the data to the application immediately.
+- **RST (Reset)**: Resets a connections, often sent by firewalls or when no service responds on the target.
+- **SYN (Synchronize)**: Initiates a TCP connection with a 3-way handshake.
+- **FIN (Finish)**: Indicated the sender has finished sending data.
