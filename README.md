@@ -47,6 +47,6 @@ UDP is a connectionless protcol, meaning it doesn't require a handshake to estab
 
 ![UDP Scan](https://github.com/user-attachments/assets/affa2c84-b42b-4a7f-91ea-fd008d60a0cc)
 
-- Ran the command: **nmap -sU -F -v 10.10.127.44 to answer the below questions:
+- Ran the command: **nmap -sU -F -v 10.10.127.44** to answer the below questions:
 
 ![Task6Q A](https://github.com/user-attachments/assets/627dbff5-a2fc-4484-9311-2bc931b5ae00)
