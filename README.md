@@ -32,3 +32,21 @@ Nmap can manipulate the TCP flags in the header, which are important for scannin
 - **RST (Reset)**: Resets a connections, often sent by firewalls or when no service responds on the target.
 - **SYN (Synchronize)**: Initiates a TCP connection with a 3-way handshake.
 - **FIN (Finish)**: Indicated the sender has finished sending data.
+
+## **Task 4 Module - TCP Connect Scan**
+
+![TCPConnectScanTask4](https://github.com/user-attachments/assets/ebfa472c-4519-4831-b58a-e6143be5e17f)
+
+- In this example, we use **-sT** (TCP connect scan) to obtain a detailed list of open ports.
+- Note, we can use **-F** to enable fast mode and decrease the number of scanned ports from 1000 to 100 most common ports.
+
+## **Task 6 Module - UDP Scan**
+
+UDP is a connectionless protcol, meaning it doesn't require a handshake to establish a connection. Because of this, a service listening on a UDP port may not respond to sent packets. However, if a UDP packet is sent to a closed port, an ICMP port unreachable error will be returned. Nmap can perform a UDP scan using the **-sU** option, and this can be combined with a TCP scan. When sending a UDP packet to an open port, you might not receive any response, making it difficult to determine the port's status nased on the lack of replies.
+
+
+![UDP Scan](https://github.com/user-attachments/assets/affa2c84-b42b-4a7f-91ea-fd008d60a0cc)
+
+- Ran the command: **nmap -sU -F -v 10.10.127.44 to answer the below questions:
+
+![Task6Q A](https://github.com/user-attachments/assets/627dbff5-a2fc-4484-9311-2bc931b5ae00)
