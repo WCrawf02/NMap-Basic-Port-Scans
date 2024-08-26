@@ -8,23 +8,23 @@ A TCP or UDP port identifies a specific network service running on host, similar
 
 Ports can be in one of two basic states:
 
--**Open**: A service is actively listening on the port.
+- **Open**: A service is actively listening on the port.
 
--**Closed**: No service listening, port is accessible.
+- **Closed**: No service listening, port is accessible.
 
 Nmap, however, may detect six possible port states:
 
--**Open**
+- **Open**
 
-**Closed**
+- **Closed**
 
-**Filtered**: Nmap can not determine the port's status due to firewall interference.
+- **Filtered**: Nmap can not determine the port's status due to firewall interference.
 
-**Unfiltered**: The port is accessible, but it's status (open or closed) is unclear.
+- **Unfiltered**: The port is accessible, but it's status (open or closed) is unclear.
 
-**Open|Filtered**: Nmap can not distinguish between open and filtered.
+- **Open|Filtered**: Nmap can not distinguish between open and filtered.
 
-**Closed|Filtered**: Nmap can not determine if the port is closed or filtered.
+- **Closed|Filtered**: Nmap can not determine if the port is closed or filtered.
 
 ## **Task 3 Module - TCP Flags** 🏁
 
