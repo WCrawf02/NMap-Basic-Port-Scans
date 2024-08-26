@@ -9,6 +9,7 @@ A TCP or UDP port identifies a specific network service running on host, similar
 Ports can be in one of two basic states:
 
 -**Open**: A service is actively listening on the port.
+
 -**Closed**: No service listening, port is accessible.
 
 Nmap, however, may detect six possible port states:
