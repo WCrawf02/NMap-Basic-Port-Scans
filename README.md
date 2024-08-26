@@ -18,6 +18,6 @@ Nmap, however, may detect six possible port states:
 **Open|Filtered**: Nmap can not distinguish between open and filtered.
 **Closed|Filtered**: Nmap can not determine if the port is closed or filtered.
 
-## **Task 3 Module - TCP Flags**
+## **Task 3 Module - TCP Flags** 🏁
 
 ![TCPFlags_Nmap_Task3](https://github.com/user-attachments/assets/70447113-a800-433b-bc23-761917795d20)
