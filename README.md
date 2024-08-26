@@ -58,3 +58,10 @@ UDP is a connectionless protcol, meaning it doesn't require a handshake to estab
 - Ran the command: **nmap -sU -F -v 10.10.127.44** to answer the below questions:
 
 ![Task6Q A](https://github.com/user-attachments/assets/627dbff5-a2fc-4484-9311-2bc931b5ae00)
+
+## **Task 8 Module - Conclusion**
+
+![Screenshot 2024-08-26 at 6 46 23 PM](https://github.com/user-attachments/assets/12b5c2bb-3af8-45eb-916f-9a6802c948f5)
+
+In conclusion, Nmap's basic port scanning techniques provide essential insights into the network services running on a target system. By leveraging different scan types, such as TCP Connect, TCP SYN, and UDP scans, Nmap enables users to identify open, closed, and filtered ports. Each scan type has its own advantages, with TCP Connect being more reliable but detectable, while TCP SYN and UDP scans offer stealthier alternatives. Understanding the behavior of these scans helps security professionals uncover potential vulnerabilities in a system. Overall, mastering Nmap's port scanning capabilities is a foundational skill for effective network reconnaissance and cybersecurity analysis.
+
