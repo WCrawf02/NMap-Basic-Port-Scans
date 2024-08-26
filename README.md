@@ -7,10 +7,12 @@ In this project, I am exploring the fundamentals of port scanning using Nmap, fo
 A TCP or UDP port identifies a specific network service running on host, similar to how an IP address identifies the host itself. Common services bind to sepcific ports, for example, HTTP on TCP port 80, HTTPS on TCP port 443. Only one service can listen on a particular port at any time for a given IP address.
 
 Ports can be in one of two basic states:
+
 -**Open**: A service is actively listening on the port.
 **Closed**: No service listening, port is accessible.
 
 Nmap, however, may detect six possible port states:
+
 -**Open**
 **Closed**
 **Filtered**: Nmap can not determine the port's status due to firewall interference.
